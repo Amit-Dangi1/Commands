@@ -22,8 +22,7 @@ console.log("Add = ",c);
 console.log("Substraction = ",a-b);
 console.log("Multiply = ",a*b);
 console.log("Division = ",a/b);
-console.log("Exponentiation = ",a**b);
-
+ 
 let amit_age = 22;
 let abhi_age = 24
 
@@ -72,12 +71,36 @@ if(marks<33){
     console.log("A+");
     
 }
+true?console.log("It is Done"):console.log("Somthing wen wrong");
+;
 
 console.log("Switch case");
 
 
 
+let city_number = 1;
 
+switch(city_number){
+    case 0:console.log("Indore");
+    break;
+    case 1:console.log("Bhopal");
+    break;
+    case 1:console.log("Rewa");
+    break;
+
+    case 2:console.log("Noida");
+    break;
+    case 3:console.log("Pune");
+    break;
+
+    case 4:console.log("Delhi");
+    break;
+    case 5:console.log("Chennai");
+    break;
+    default:console.log("Bangluru");
+    
+    
+}
     
 
 
