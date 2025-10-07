@@ -1,0 +1,25 @@
+
+                              Git Commands
+git init 
+git config user.name
+git config user.email
+git status
+git add <file_name>
+git add . (for all)
+git status
+git commit -m "message"
+for updating commit message>>> : git commit -m --amend "new_message"
+you changes in file and you don't want to commit pervious message is keep 
+so, use this cmd = git commit --amend --no edit (commit is done witout changing message)
+
+git remote add origin github_repo_path
+git push -u origin master
+
+git branch (branch list)
+git branch branch_name (create)
+git checkout branch_name (switch)
+git checkout -b branch_name (create and switch)
+	
+
+ 
+
