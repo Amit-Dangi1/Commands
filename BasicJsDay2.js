@@ -193,10 +193,7 @@ let arrr = ["Indore","Pune","Delhi"];
 for(let i in arrr){
   console.log(arrr[i])
 } 
-for(let i in arrr){
-  console.log(arrr[i])
-} 
- 
+  
 
 
 
