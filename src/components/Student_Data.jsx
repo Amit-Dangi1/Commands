@@ -34,19 +34,17 @@ function Student_Data(){
  
 return(
 <>
- <div className="container-fluid bg-light"></div>
-
- <div>
-    <form>
-        <label>Name</label>
-        <input type="text" onChange={(e)=>setdata({...data,name:e.target.value})} value={data.name} id="" placeholder="Enter name" /> <br /><br />
-        <label>Address:</label>
-        <input type="text" onChange={(e)=>setdata({...data,address:e.target.value})} value={data.address} id="" placeholder="Enter address" /> <br /><br />
-        <button value="add" type="button" className="" id="addbtn" onClick={handleData}>{editindex!=null?"Update":"Add"}</button>
-        
-    </form>
- </div>
- <div>
+   <div className="container-fluid bg-light"></div>
+        <div>
+             <form>
+             <label>Name</label>
+             <input type="text" onChange={(e)=>setdata({...data,name:e.target.value})} value={data.name} id="" placeholder="Enter name" /> <br /><br />
+             <label>Address:</label>
+             <input type="text" onChange={(e)=>setdata({...data,address:e.target.value})} value={data.address} id="" placeholder="Enter address" /> <br /><br />
+             <button value="add" type="button" className="" id="addbtn" onClick={handleData}>{editindex!=null?"Update":"Add"}</button>
+             </form>
+        </div>
+     <div>
 
     <table className="table-striped">
         <tr>

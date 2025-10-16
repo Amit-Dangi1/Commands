@@ -6,16 +6,18 @@ import Student_Data from './components/Student_Data'
 import Carts from './components/Carts'
 import Task from './components/Task'
 import MuiPractice from "./components/MuiPractice";
+import Parent from './components/Parent'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-
+{/* 
  <Task/>
- <Carts/>
- <MuiPractice/>
+ <Carts/> */}
+ {/* <MuiPractice/> */}
+ <Parent/>
 
  
     </>
